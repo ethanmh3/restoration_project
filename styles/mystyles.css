@@ -1,0 +1,144 @@
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    position: sticky;
+    background-color: rgb(193, 154, 107);
+    padding-top: 10px;
+    margin: 0;
+    z-index: 1;
+}
+.nav-bar {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 7px;
+    color: whitesmoke;
+    position: sticky;
+    text-align: center;
+    left: 150px;
+    width: 1113px;
+}
+.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:visited {
+    color: whitesmoke;
+}
+a {
+    color: whitesmoke;
+}
+body {
+    margin: 0;
+}
+.leftbar {
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    width: auto;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    background-color: rgb(193, 154, 107);
+    color: rgb(193, 154, 107);
+}
+.rightbar {
+    top: 0;
+    right: 0;
+    bottom: 0px;
+    width: auto;
+    position: fixed;
+    margin: 0;
+    background-color: rgb(193, 154, 107);
+    color: rgb(193, 154, 107);
+}
+.mainbody {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    top: 60px;
+    left: 80.083px;
+    right: 80.083px;
+    padding: 5px;
+    bottom: 0;
+    position: absolute;
+}
+.sub-body {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 20px;
+    background-color: rgba(249, 187, 111, 0.4);
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    width: 95%;
+    align-content: center;
+    display: grid;
+}
+.main-heading {
+    text-align: center;
+    font-weight: 1200;
+    font-size: 33px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.sub-heading {
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 28px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.text {
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.list {
+    padding-left: 0;
+}
+.listindent {
+    padding-left: 0;
+    list-style: circle;
+    left: 20px;
+    position: relative;
+}
+.longquote {
+    position: relative;
+    left: 20px;
+    width: 83%;
+    text-align: justify;
+}
+.source::before {
+    content: "\a";
+    white-space: pre;
+}
+.title {
+    position: absolute;
+    padding-top: 0;
+    margin-top: 0;
+    top: 5px;
+    left: 22px;
+    width: 300px;
+    color: whitesmoke;
+    font-size: 27px;
+    text-align:right;
+    z-index: 2;
+    font-weight: normal;
+}
